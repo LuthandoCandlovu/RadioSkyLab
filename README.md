@@ -1,20 +1,6 @@
-#!/usr/bin/env python3
-"""RadioSkyLab README generator.
+<div align="center">
 
-Run this once from the root of your repository:
-
-    python setup_readme.py
-
-It creates README.md and the animated SVGs in assets/.
-Then commit and push. GitHub does not render inline SVG inside a README,
-so the three graphics must live as real files, and this script writes them.
-"""
-from pathlib import Path
-
-FILES = {
-    "README.md": r'''<div align="center">
-
-<img src="assets/header.svg" width="100%" alt="RadioSkyLab: radio astronomy data analysis and visualisation"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0B1F3A,50:14B8A6,100:F5B700&height=300&section=header&text=RadioSkyLab&fontSize=80&fontColor=ffffff&animation=twinkling&fontAlignY=40&desc=Radio%20Astronomy%20Data%20Analysis%20%26%20Visualisation%20Platform&descSize=20&descAlignY=62" width="100%" alt="RadioSkyLab"/>
 
 <br/>
 
@@ -51,7 +37,7 @@ FILES = {
 
 </div>
 
-<img src="assets/divider.svg" width="100%" alt=""/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:14B8A6,50:F5B700,100:14B8A6&height=3" width="100%" alt=""/>
 
 ## 📑 Table of contents
 
@@ -85,7 +71,7 @@ FILES = {
 
 </details>
 
-<img src="assets/divider.svg" width="100%" alt=""/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:14B8A6,50:F5B700,100:14B8A6&height=3" width="100%" alt=""/>
 
 ## 🌌 Overview
 
@@ -112,7 +98,7 @@ RadioSkyLab answers that question quickly. You load an observation, see the radi
 - **Simple to run.** One virtual environment, one install command, one run command.
 - **Open to growth.** The structure leaves room for survey integration and calibrated workflows.
 
-<img src="assets/divider.svg" width="100%" alt=""/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:14B8A6,50:F5B700,100:14B8A6&height=3" width="100%" alt=""/>
 
 ## 🎬 Demo
 
@@ -144,7 +130,7 @@ You can also add still screenshots to `docs/` and link them like this:
 
 </details>
 
-<img src="assets/divider.svg" width="100%" alt=""/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:14B8A6,50:F5B700,100:14B8A6&height=3" width="100%" alt=""/>
 
 ## ✨ Features
 
@@ -233,7 +219,7 @@ Prepared for survey data.
 | FIRST survey integration | 🛠️ Planned | Astroquery |
 | Calibrated analysis workflows | 🔭 Future | To be decided |
 
-<img src="assets/divider.svg" width="100%" alt=""/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:14B8A6,50:F5B700,100:14B8A6&height=3" width="100%" alt=""/>
 
 ## 🧭 How it works
 
@@ -309,7 +295,7 @@ flowchart TB
     style L3 fill:#0B1F3A,stroke:#14B8A6,color:#fff
 ```
 
-<img src="assets/divider.svg" width="100%" alt=""/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:14B8A6,50:F5B700,100:14B8A6&height=3" width="100%" alt=""/>
 
 ## 🖥️ Dashboard tour
 
@@ -353,7 +339,7 @@ Basic quality checks flag common problems, so you can decide whether the file is
 
 </details>
 
-<img src="assets/divider.svg" width="100%" alt=""/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:14B8A6,50:F5B700,100:14B8A6&height=3" width="100%" alt=""/>
 
 ## 🛠️ Technology
 
@@ -396,7 +382,7 @@ Basic quality checks flag common problems, so you can decide whether the file is
         └───────────────┘
 ```
 
-<img src="assets/divider.svg" width="100%" alt=""/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:14B8A6,50:F5B700,100:14B8A6&height=3" width="100%" alt=""/>
 
 ## 📂 Project structure
 
@@ -407,10 +393,6 @@ RadioSkyLab/
 ├── 📄 app.py                 # Streamlit entry point
 ├── 📄 requirements.txt       # Python dependencies
 ├── 📄 README.md              # You are here
-├── 📁 assets/                # README header, divider and footer graphics
-│   ├── header.svg
-│   ├── divider.svg
-│   └── footer.svg
 ├── 📁 docs/                  # Screenshots and the demo GIF
 │   └── demo.gif
 ├── 📁 data/                  # Your FITS files (keep large files out of Git)
@@ -421,7 +403,6 @@ RadioSkyLab/
 ### 📝 Notes on the layout
 
 - Keep **large FITS files out of Git**. Add them to `.gitignore` and share them through a data host instead.
-- Keep the README graphics in `assets/` so the page loads fast and works offline on GitHub.
 - Screenshots and GIFs belong in `docs/`.
 
 <details>
@@ -452,7 +433,7 @@ Thumbs.db
 
 </details>
 
-<img src="assets/divider.svg" width="100%" alt=""/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:14B8A6,50:F5B700,100:14B8A6&height=3" width="100%" alt=""/>
 
 ## 🚀 Quick start
 
@@ -552,7 +533,7 @@ astroquery
 
 > 📌 For reproducible installs, pin versions with `pip freeze > requirements.txt` once everything works.
 
-<img src="assets/divider.svg" width="100%" alt=""/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:14B8A6,50:F5B700,100:14B8A6&height=3" width="100%" alt=""/>
 
 ## 🐍 Use the data in Python
 
@@ -678,7 +659,7 @@ Survey integration is **not part of the current release**. Astroquery provides t
 
 </details>
 
-<img src="assets/divider.svg" width="100%" alt=""/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:14B8A6,50:F5B700,100:14B8A6&height=3" width="100%" alt=""/>
 
 ## 📊 Understanding the statistics
 
@@ -724,7 +705,7 @@ print(f"Peak / noise   : {peak / noise:.1f}")
 
 See the [disclaimer](#%EF%B8%8F-disclaimer).
 
-<img src="assets/divider.svg" width="100%" alt=""/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:14B8A6,50:F5B700,100:14B8A6&height=3" width="100%" alt=""/>
 
 ## ✅ Quality checks
 
@@ -767,7 +748,7 @@ def quick_checks(image):
 print(quick_checks(image))
 ```
 
-<img src="assets/divider.svg" width="100%" alt=""/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:14B8A6,50:F5B700,100:14B8A6&height=3" width="100%" alt=""/>
 
 ## 📚 Radio astronomy primer
 
@@ -828,7 +809,7 @@ flowchart LR
     style G fill:#F5B700,stroke:#0B1F3A,color:#0B1F3A
 ```
 
-<img src="assets/divider.svg" width="100%" alt=""/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:14B8A6,50:F5B700,100:14B8A6&height=3" width="100%" alt=""/>
 
 ## 📡 Data and the FIRST survey
 
@@ -870,7 +851,7 @@ Until survey integration arrives, bring your own files:
 - Never commit large or restricted data to a public repository.
 - Credit the telescope, survey and authors in anything you publish.
 
-<img src="assets/divider.svg" width="100%" alt=""/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:14B8A6,50:F5B700,100:14B8A6&height=3" width="100%" alt=""/>
 
 ## 🗺️ Roadmap
 
@@ -917,7 +898,7 @@ gantt
 
 > 🗓️ The dates above are a planning sketch. Update them to match your real schedule.
 
-<img src="assets/divider.svg" width="100%" alt=""/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:14B8A6,50:F5B700,100:14B8A6&height=3" width="100%" alt=""/>
 
 ## 🧰 Troubleshooting
 
@@ -1049,7 +1030,7 @@ Survey and archive access needs an internet connection. Check your connection an
 
 </details>
 
-<img src="assets/divider.svg" width="100%" alt=""/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:14B8A6,50:F5B700,100:14B8A6&height=3" width="100%" alt=""/>
 
 ## ❓ FAQ
 
@@ -1128,7 +1109,7 @@ pip install -r requirements.txt --upgrade
 
 </details>
 
-<img src="assets/divider.svg" width="100%" alt=""/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:14B8A6,50:F5B700,100:14B8A6&height=3" width="100%" alt=""/>
 
 ## 🤝 Contributing
 
@@ -1189,7 +1170,7 @@ Then open a **pull request** and describe what you changed and why.
 | `refactor:` | Code cleanup with no behaviour change |
 | `test:` | Adding or updating tests |
 
-<img src="assets/divider.svg" width="100%" alt=""/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:14B8A6,50:F5B700,100:14B8A6&height=3" width="100%" alt=""/>
 
 ## 📖 References and credits
 
@@ -1218,12 +1199,12 @@ If you use these tools or data in published work, please cite the original paper
 
 ### 🎨 Visual credits
 
-- Header, divider and footer graphics are custom animated SVGs stored in `assets/`.
+- Header, divider and footer banners by [capsule-render](https://github.com/kyechan99/capsule-render).
 - Badges by [Shields.io](https://shields.io/).
 - Typing animation by [readme-typing-svg](https://github.com/DenverCoder1/readme-typing-svg).
 - Technology icons by [skillicons.dev](https://skillicons.dev/).
 
-<img src="assets/divider.svg" width="100%" alt=""/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:14B8A6,50:F5B700,100:14B8A6&height=3" width="100%" alt=""/>
 
 ## ⚠️ Disclaimer
 
@@ -1231,7 +1212,7 @@ If you use these tools or data in published work, please cite the original paper
 
 RadioSkyLab is built for learning, inspection and first-look analysis. It does not replace calibrated pipelines, expert review or peer-reviewed methods. Always confirm important findings with established tools and cite your data sources.
 
-<img src="assets/divider.svg" width="100%" alt=""/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:14B8A6,50:F5B700,100:14B8A6&height=3" width="100%" alt=""/>
 
 ## 👤 Author
 
@@ -1256,214 +1237,6 @@ RadioSkyLab is built for learning, inspection and first-look analysis. It does n
 
 <br/>
 
-<img src="assets/footer.svg" width="100%" alt="RadioSkyLab footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:F5B700,50:14B8A6,100:0B1F3A&height=160&section=footer&text=Built%20by%20Luthando%20Candlovu&fontSize=26&fontColor=ffffff&fontAlignY=68&animation=fadeIn" width="100%" alt="footer"/>
 
 </div>
-''',
-    "assets/header.svg": r'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-labelledby="t d" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo1NTkxNTdkYS01MjAyLTRiNGQtYTgxOC0yOTM0NDcwZTYxMDgAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaJ9Z+39GJLoR2FO3zYKCp4cAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDpmZWU5NGNhZS1hZmJhLTRiMDctODg2NC03ZTVlNWQxZTgxMWVscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoNdJn51msW4thkbYolZNEZwAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggQXxknQZHFjqsSsNf/Xv9l5j8ILZZVRdvXasqgQZ97iqkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaIZVYbAFNax6UjEzFJn3dPcAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCA+ltosCD7ScUW2EsBC3R91/hsxdOCsA6zUfkg/w5vw+GRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBi5Zmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjU1OTE1N2RhLTUyMDItNGI0ZC1hODE4LTI5MzQ0NzBlNjEwOC9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjMwZTU5NjI5LWY1Y2ItNDcxOC1hYmI3LTcyNGNkOGJhNjJjNXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCBBfGSdBkcWOqxKw1/9e/2XmPwgtllVF29dqyqBBn3uKqJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggOeNjE02gtCVFS3akMovKYReKqZ1HVQglvcpCCMoDKKSiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggWaLIDey1ElVxZxc3iD8gc73cLftU2veMiaxyLbyoGx90Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQCq+VFX1/B7+6Ihy8rj2SLTD9aQP5rFdnSmV/xKzq7kMctaK4qmSXon4iumrkbmD3Jm/6OY43AHx18IyLMvxMrs=</c2pa:manifest></metadata>
-  <title id="t">RadioSkyLab</title>
-  <desc id="d">A radio dish scanning a starfield above a radio signal trace with a detected source peak.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0B1F3A"/><stop offset="0.6" stop-color="#081529"/><stop offset="1" stop-color="#04101F"/>
-    </linearGradient>
-    <linearGradient id="ttl" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#F5B700"/><stop offset="0.55" stop-color="#FFE08A"/><stop offset="1" stop-color="#14B8A6"/>
-    </linearGradient>
-    <linearGradient id="trace" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#14B8A6" stop-opacity="0"/><stop offset="0.15" stop-color="#14B8A6"/>
-      <stop offset="0.55" stop-color="#F5B700"/><stop offset="0.9" stop-color="#14B8A6"/><stop offset="1" stop-color="#14B8A6" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#14B8A6" stop-opacity="0"/><stop offset="1" stop-color="#14B8A6" stop-opacity="0.35"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#14B8A6" stop-opacity="0.35"/><stop offset="1" stop-color="#14B8A6" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#F5B700" stop-opacity="0.5"/><stop offset="1" stop-color="#F5B700" stop-opacity="0"/>
-    </radialGradient>
-    <clipPath id="clip"><rect width="1200" height="380" rx="18"/></clipPath>
-  </defs>
-  <style>
-    .st{animation:tw 4s ease-in-out infinite}
-    @keyframes tw{0%,100%{opacity:.15}50%{opacity:1}}
-    .dish{transform-origin:985px 292px;animation:sweep 9s ease-in-out infinite}
-    @keyframes sweep{0%,100%{transform:rotate(-16deg)}50%{transform:rotate(14deg)}}
-    .sig{animation:ping 3s ease-out infinite;opacity:0}
-    .s2{animation-delay:.9s} .s3{animation-delay:1.8s}
-    @keyframes ping{0%{opacity:0}20%{opacity:.9}100%{opacity:0}}
-    .trace{stroke-dasharray:1000;stroke-dashoffset:1000;animation:draw 7s ease-in-out infinite}
-    @keyframes draw{0%{stroke-dashoffset:1000}70%,100%{stroke-dashoffset:0}}
-    .scan{animation:scan 7s linear infinite}
-    @keyframes scan{0%{transform:translateX(0)}100%{transform:translateX(1160px)}}
-    .pulse{transform-origin:640px 276px;animation:beat 2.4s ease-in-out infinite}
-    @keyframes beat{0%,100%{transform:scale(.6);opacity:.25}50%{transform:scale(1.25);opacity:.9}}
-    .ttl{animation:rise 1.4s ease-out both}
-    @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
-    text{font-family:'Segoe UI','Helvetica Neue',Arial,sans-serif}
-    @media (prefers-reduced-motion:reduce){*{animation:none!important} .trace{stroke-dashoffset:0} .sig{opacity:.5}}
-  </style>
-  <g clip-path="url(#clip)">
-    <rect width="1200" height="380" fill="url(#bg)"/>
-    <ellipse cx="985" cy="230" rx="300" ry="190" fill="url(#glow)"/>
-    <ellipse cx="200" cy="120" rx="360" ry="200" fill="url(#sun)" opacity=".35"/>
-    <g stroke="#14B8A6" stroke-opacity=".07" stroke-width="1">
-      <path d="M0 80H1200M0 160H1200M0 240H1200M0 320H1200"/>
-      <path d="M150 0V380M300 0V380M450 0V380M600 0V380M750 0V380M900 0V380M1050 0V380"/>
-    </g>
-    <circle class="st" cx="673" cy="87" r="1.6" fill="#ffffff" style="animation-duration:6s;animation-delay:0.2s"/>
-    <circle class="st" cx="758" cy="39" r="2" fill="#FFE08A" style="animation-duration:3s;animation-delay:0.2s"/>
-    <circle class="st" cx="866" cy="45" r="1" fill="#ffffff" style="animation-duration:2.5s;animation-delay:2.8s"/>
-    <circle class="st" cx="1168" cy="73" r="1" fill="#ffffff" style="animation-duration:6s;animation-delay:3.1s"/>
-    <circle class="st" cx="822" cy="35" r="1" fill="#ffffff" style="animation-duration:2.5s;animation-delay:2.8s"/>
-    <circle class="st" cx="603" cy="224" r="1" fill="#9FF3E8" style="animation-duration:5s;animation-delay:0.6s"/>
-    <circle class="st" cx="1157" cy="102" r="0.8" fill="#ffffff" style="animation-duration:5s;animation-delay:2.9s"/>
-    <circle class="st" cx="772" cy="59" r="2" fill="#ffffff" style="animation-duration:6s;animation-delay:0.3s"/>
-    <circle class="st" cx="431" cy="264" r="2" fill="#FFE08A" style="animation-duration:4s;animation-delay:3.9s"/>
-    <circle class="st" cx="938" cy="195" r="1.2" fill="#ffffff" style="animation-duration:3s;animation-delay:4.0s"/>
-    <circle class="st" cx="177" cy="163" r="2" fill="#FFE08A" style="animation-duration:4s;animation-delay:4.4s"/>
-    <circle class="st" cx="599" cy="47" r="0.8" fill="#9FF3E8" style="animation-duration:5s;animation-delay:2.1s"/>
-    <circle class="st" cx="321" cy="260" r="1.6" fill="#ffffff" style="animation-duration:2.5s;animation-delay:4.8s"/>
-    <circle class="st" cx="1152" cy="170" r="1.2" fill="#FFE08A" style="animation-duration:6s;animation-delay:1.8s"/>
-    <circle class="st" cx="944" cy="45" r="0.8" fill="#ffffff" style="animation-duration:3.5s;animation-delay:2.4s"/>
-    <circle class="st" cx="134" cy="168" r="2" fill="#9FF3E8" style="animation-duration:6s;animation-delay:4.1s"/>
-    <circle class="st" cx="800" cy="187" r="0.8" fill="#ffffff" style="animation-duration:4s;animation-delay:1.8s"/>
-    <circle class="st" cx="1021" cy="40" r="1" fill="#ffffff" style="animation-duration:3.5s;animation-delay:0.6s"/>
-    <circle class="st" cx="824" cy="210" r="1.6" fill="#FFE08A" style="animation-duration:2.5s;animation-delay:0.8s"/>
-    <circle class="st" cx="1135" cy="152" r="1" fill="#9FF3E8" style="animation-duration:4s;animation-delay:4.3s"/>
-    <circle class="st" cx="860" cy="193" r="1.6" fill="#ffffff" style="animation-duration:3s;animation-delay:0.8s"/>
-    <circle class="st" cx="319" cy="128" r="1" fill="#ffffff" style="animation-duration:2.5s;animation-delay:2.4s"/>
-    <circle class="st" cx="548" cy="154" r="0.8" fill="#9FF3E8" style="animation-duration:3s;animation-delay:2.1s"/>
-    <circle class="st" cx="1169" cy="173" r="1" fill="#ffffff" style="animation-duration:6s;animation-delay:4.3s"/>
-    <circle class="st" cx="945" cy="210" r="1.6" fill="#FFE08A" style="animation-duration:4s;animation-delay:2.0s"/>
-    <circle class="st" cx="830" cy="41" r="1" fill="#FFE08A" style="animation-duration:2.5s;animation-delay:4.9s"/>
-    <circle class="st" cx="342" cy="66" r="1.2" fill="#ffffff" style="animation-duration:5s;animation-delay:0.3s"/>
-    <circle class="st" cx="1170" cy="87" r="2" fill="#ffffff" style="animation-duration:2.5s;animation-delay:4.7s"/>
-    <circle class="st" cx="154" cy="116" r="2" fill="#9FF3E8" style="animation-duration:4s;animation-delay:0.7s"/>
-    <circle class="st" cx="721" cy="196" r="1.6" fill="#FFE08A" style="animation-duration:2.5s;animation-delay:0.6s"/>
-    <circle class="st" cx="964" cy="255" r="1.6" fill="#ffffff" style="animation-duration:3.5s;animation-delay:0.4s"/>
-    <circle class="st" cx="711" cy="145" r="1.6" fill="#ffffff" style="animation-duration:6s;animation-delay:0.8s"/>
-    <circle class="st" cx="430" cy="280" r="1.2" fill="#ffffff" style="animation-duration:3s;animation-delay:3.5s"/>
-    <circle class="st" cx="1091" cy="162" r="0.8" fill="#9FF3E8" style="animation-duration:6s;animation-delay:4.2s"/>
-    <circle class="st" cx="352" cy="192" r="1" fill="#9FF3E8" style="animation-duration:5s;animation-delay:2.7s"/>
-    <circle class="st" cx="466" cy="109" r="1" fill="#ffffff" style="animation-duration:4s;animation-delay:3.7s"/>
-    <circle class="st" cx="419" cy="275" r="1.6" fill="#ffffff" style="animation-duration:3.5s;animation-delay:3.7s"/>
-    <circle class="st" cx="582" cy="251" r="1.2" fill="#9FF3E8" style="animation-duration:3s;animation-delay:3.5s"/>
-    <circle class="st" cx="925" cy="188" r="1.2" fill="#ffffff" style="animation-duration:2.5s;animation-delay:1.1s"/>
-    <circle class="st" cx="972" cy="110" r="1.2" fill="#ffffff" style="animation-duration:3s;animation-delay:2.4s"/>
-    <circle class="st" cx="991" cy="186" r="0.8" fill="#FFE08A" style="animation-duration:6s;animation-delay:0.6s"/>
-    <circle class="st" cx="418" cy="254" r="1" fill="#9FF3E8" style="animation-duration:4s;animation-delay:3.9s"/>
-    <circle class="st" cx="187" cy="212" r="1.6" fill="#ffffff" style="animation-duration:4s;animation-delay:3.7s"/>
-    <circle class="st" cx="335" cy="97" r="1" fill="#FFE08A" style="animation-duration:2.5s;animation-delay:0.8s"/>
-    <circle class="st" cx="309" cy="252" r="1.2" fill="#ffffff" style="animation-duration:3s;animation-delay:2.7s"/>
-    <circle class="st" cx="53" cy="17" r="0.8" fill="#ffffff" style="animation-duration:5s;animation-delay:3.7s"/>
-    <circle class="st" cx="898" cy="109" r="1" fill="#9FF3E8" style="animation-duration:2.5s;animation-delay:1.3s"/>
-    <circle class="st" cx="1036" cy="133" r="2" fill="#FFE08A" style="animation-duration:3.5s;animation-delay:1.3s"/>
-    <circle class="st" cx="278" cy="41" r="1.2" fill="#FFE08A" style="animation-duration:4s;animation-delay:3.3s"/>
-    <circle class="st" cx="1037" cy="76" r="2" fill="#ffffff" style="animation-duration:3s;animation-delay:2.6s"/>
-    <circle class="st" cx="911" cy="103" r="2" fill="#ffffff" style="animation-duration:2.5s;animation-delay:3.9s"/>
-    <circle class="st" cx="362" cy="82" r="1.6" fill="#ffffff" style="animation-duration:5s;animation-delay:3.6s"/>
-    <circle class="st" cx="677" cy="275" r="2" fill="#ffffff" style="animation-duration:5s;animation-delay:2.4s"/>
-    <circle class="st" cx="1157" cy="39" r="1" fill="#ffffff" style="animation-duration:3s;animation-delay:1.4s"/>
-    <circle class="st" cx="1049" cy="241" r="2" fill="#ffffff" style="animation-duration:2.5s;animation-delay:3.8s"/>
-    <circle class="st" cx="917" cy="176" r="2" fill="#ffffff" style="animation-duration:5s;animation-delay:3.0s"/>
-    <circle class="st" cx="577" cy="241" r="2" fill="#ffffff" style="animation-duration:5s;animation-delay:4.0s"/>
-    <circle class="st" cx="1081" cy="142" r="2" fill="#ffffff" style="animation-duration:3s;animation-delay:4.2s"/>
-    <circle class="st" cx="863" cy="72" r="1.6" fill="#ffffff" style="animation-duration:4s;animation-delay:1.6s"/>
-    <circle class="st" cx="887" cy="47" r="1" fill="#ffffff" style="animation-duration:6s;animation-delay:1.5s"/>
-    <circle class="st" cx="326" cy="197" r="1" fill="#FFE08A" style="animation-duration:3.5s;animation-delay:4.4s"/>
-    <circle class="st" cx="459" cy="58" r="1.6" fill="#ffffff" style="animation-duration:4s;animation-delay:0.8s"/>
-    <circle class="st" cx="340" cy="230" r="2" fill="#ffffff" style="animation-duration:4s;animation-delay:1.7s"/>
-    <circle class="st" cx="740" cy="173" r="0.8" fill="#9FF3E8" style="animation-duration:6s;animation-delay:1.8s"/>
-    <circle class="st" cx="1144" cy="244" r="1.6" fill="#9FF3E8" style="animation-duration:6s;animation-delay:0.1s"/>
-    <circle class="st" cx="1069" cy="161" r="2" fill="#ffffff" style="animation-duration:2.5s;animation-delay:0.6s"/>
-    <circle class="st" cx="224" cy="53" r="1.2" fill="#ffffff" style="animation-duration:3.5s;animation-delay:0.2s"/>
-    <circle class="st" cx="563" cy="76" r="1.6" fill="#9FF3E8" style="animation-duration:6s;animation-delay:4.1s"/>
-    <circle class="st" cx="841" cy="86" r="2" fill="#9FF3E8" style="animation-duration:5s;animation-delay:2.9s"/>
-    <circle class="st" cx="193" cy="152" r="0.8" fill="#ffffff" style="animation-duration:6s;animation-delay:0.9s"/>
-
-    <!-- radio dish -->
-    <g>
-      <path d="M965 380 L985 292 L1005 380 Z" fill="#14B8A6" fill-opacity=".25" stroke="#14B8A6" stroke-opacity=".6"/>
-      <circle cx="985" cy="292" r="7" fill="#F5B700"/>
-      <g class="dish">
-        <path d="M925 232 Q985 322 1045 232" fill="none" stroke="#F5B700" stroke-width="7" stroke-linecap="round"/>
-        <path d="M935 238 Q985 308 1035 238" fill="none" stroke="#FFE08A" stroke-opacity=".5" stroke-width="2"/>
-        <path d="M985 292 L985 196" stroke="#14B8A6" stroke-width="3" stroke-linecap="round"/>
-        <circle cx="985" cy="192" r="6" fill="#14B8A6"/>
-        <path class="sig" d="M958 158 Q985 134 1012 158" fill="none" stroke="#14B8A6" stroke-width="3" stroke-linecap="round"/>
-        <path class="sig s2" d="M942 140 Q985 104 1028 140" fill="none" stroke="#14B8A6" stroke-width="3" stroke-linecap="round"/>
-        <path class="sig s3" d="M926 122 Q985 74 1044 122" fill="none" stroke="#14B8A6" stroke-width="3" stroke-linecap="round"/>
-      </g>
-    </g>
-
-    <!-- title -->
-    <g class="ttl">
-      <text x="64" y="168" font-size="92" font-weight="800" fill="url(#ttl)" letter-spacing="-1">RadioSkyLab</text>
-      <text x="68" y="214" font-size="25" font-weight="600" fill="#FFFFFF">Radio astronomy data analysis and visualisation</text>
-      <text x="68" y="248" font-size="18" fill="#9FF3E8">Load FITS images · see the radio sky · check the data · explore it in Streamlit</text>
-    </g>
-
-    <!-- signal trace -->
-    <circle class="pulse" cx="640" cy="276" r="26" fill="none" stroke="#F5B700" stroke-width="2"/>
-    <path class="trace" pathLength="1000" d="M40,333.2 L44,334.7 L48,329.8 L52,322.2 L56,317.6 L60,316.4 L64,314.7 L68,310.9 L72,308.8 L76,312.2 L80,318.2 L84,320.9 L88,318.2 L92,314.8 L96,315.0 L100,317.6 L104,318.2 L108,317.1 L112,318.8 L116,325.8 L120,333.7 L124,336.6 L128,334.0 L132,331.2 L136,330.9 L140,330.5 L144,326.6 L148,321.3 L152,320.0 L156,323.7 L160,327.4 L164,325.9 L168,320.8 L172,317.3 L176,316.4 L180,314.7 L184,309.8 L188,305.6 L192,307.2 L196,314.1 L200,320.2 L204,321.8 L208,321.4 L212,323.2 L216,326.5 L220,326.8 L224,323.2 L228,320.9 L232,324.1 L236,330.8 L240,334.8 L244,334.0 L248,332.1 L252,332.2 L256,332.0 L260,327.3 L264,319.1 L268,313.6 L272,314.2 L276,317.6 L280,318.4 L284,316.2 L288,315.4 L292,317.5 L296,318.7 L300,315.2 L304,309.5 L308,307.8 L312,311.4 L316,315.0 L320,313.9 L324,310.4 L328,310.5 L332,315.8 L336,321.4 L340,322.5 L344,321.2 L348,322.3 L352,326.4 L356,329.1 L360,328.0 L364,326.3 L368,327.5 L372,329.7 L376,327.4 L380,319.8 L384,312.1 L388,309.7 L392,311.2 L396,312.0 L400,310.9 L404,311.8 L408,316.9 L412,322.4 L416,322.9 L420,318.9 L424,316.0 L428,318.1 L432,322.2 L436,324.1 L440,324.5 L444,327.6 L448,334.1 L452,338.8 L456,337.0 L460,330.8 L464,326.1 L468,325.2 L472,324.5 L476,321.0 L480,317.4 L484,318.1 L488,322.4 L492,324.2 L496,320.3 L500,314.1 L504,311.1 L508,311.6 L512,311.5 L516,309.5 L520,309.4 L524,314.9 L528,323.3 L532,328.3 L536,327.6 L540,325.5 L544,326.3 L548,328.5 L552,327.9 L556,324.9 L560,324.4 L564,329.0 L568,334.8 L572,335.6 L576,331.3 L580,326.7 L584,324.8 L588,322.8 L592,317.4 L596,310.9 L600,309.0 L604,312.9 L608,317.1 L612,316.3 L616,311.1 L620,305.5 L624,300.1 L628,291.5 L632,278.9 L636,268.8 L640,268.8 L644,279.4 L648,293.6 L652,305.3 L656,314.3 L660,323.0 L664,330.0 L668,331.2 L672,326.6 L676,321.9 L680,322.4 L684,326.4 L688,328.1 L692,325.7 L696,322.9 L700,322.7 L704,322.5 L708,318.1 L712,310.5 L716,305.7 L720,307.5 L724,312.5 L728,315.4 L732,315.8 L736,317.9 L740,322.8 L744,326.4 L748,324.7 L752,320.2 L756,319.1 L760,323.3 L764,328.6 L768,330.5 L772,330.6 L776,332.6 L780,336.4 L784,336.5 L788,330.5 L792,322.5 L796,318.4 L800,318.9 L804,319.3 L808,317.0 L812,315.1 L816,317.1 L820,320.7 L824,320.4 L828,314.9 L832,309.4 L836,309.0 L840,312.4 L844,314.9 L848,315.6 L852,318.3 L856,325.2 L860,332.2 L864,333.7 L868,329.9 L872,326.4 L876,326.9 L880,328.9 L884,328.0 L888,325.1 L892,324.2 L896,325.4 L900,324.3 L904,318.6 L908,312.1 L912,310.1 L916,312.2 L920,313.3 L924,310.6 L928,307.9 L932,310.0 L936,316.4 L940,320.9 L944,319.9 L948,316.6 L952,316.2 L956,318.6 L960,319.9 L964,318.6 L968,318.8 L972,324.3 L976,332.5 L980,336.9 L984,335.4 L988,332.1 L992,331.1 L996,330.8 L1000,327.4 L1004,321.5 L1008,318.3 L1012,320.7 L1016,325.0 L1020,325.2 L1024,321.0 L1028,317.1 L1032,316.2 L1036,315.4 L1040,311.4 L1044,306.4 L1048,306.3 L1052,312.4 L1056,319.5 L1060,322.6 L1064,322.5 L1068,324.0 L1072,327.5 L1076,328.8 L1080,325.7 L1084,322.0 L1088,323.2 L1092,329.0 L1096,333.8 L1100,333.8 L1104,331.7 L1108,331.3 L1112,331.7 L1116,328.2 L1120,320.3 L1124,313.3 L1128,312.2 L1132,315.3 L1136,317.1 L1140,315.7 L1144,314.7 L1148,316.8 L1152,319.3 L1156,317.5 L1160,312.1" fill="none" stroke="url(#trace)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
-    <rect class="scan" x="20" y="262" width="60" height="84" fill="url(#scan)"/>
-    <text x="668" y="290" font-size="14" fill="#F5B700" font-weight="600">source detected</text>
-  </g>
-  <rect x="1" y="1" width="1198" height="378" rx="18" fill="none" stroke="#14B8A6" stroke-opacity=".35"/>
-</svg>''',
-    "assets/divider.svg": r'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 28" width="1200" height="28" role="presentation" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYToxZWQwMzE0ZC1lNDdhLTQ3YjctYjhkMy1jMWMwMjVhYjJiZjYAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaMXOgSdHfbZHoEKE4nHbw58AAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo5MGRjOGUwMi0zZmYwLTQxNTgtOGRjMi01ZmI2MDAzNjU0MGZscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNogMDahVJuWTqS5hg3E1bzrgAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggN/nS4E7BIgMAAtWy9p37MZpwPjhN9icrzbdoCnrccw2kZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaKNyAUhBTEhTvnFSqy5/dCcAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCBxfyS+GCRTFyvto/QJklbVg/Tm2tKKurftz8sb1UdLQmRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBiqZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjFlZDAzMTRkLWU0N2EtNDdiNy1iOGQzLWMxYzAyNWFiMmJmNi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmUwNThiZThiLTM0MWItNDQ2ZC04MWVlLTE3ZmY4ZjFmNDZhZXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCA3+dLgTsEiAwAC1bL2nfsxmnA+OE32JyvNt2gKetxzDaJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggtiGAfPXYAPT8n2STLu9/8K595fmMV4X/33MydAFHbjiiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFgg9x7eymyaSQr7ap6DtUSR8VALrZuV8aNDN7H/xXiTCCd0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQB7yeHjLpz9hcrDPAQS2NFFETXoQ7MSbHQnRYvMhUAjBwu3QvvQTt8MWwo/SPMbhGoIvPN8zqI1vOKIPyuMW9+I=</c2pa:manifest></metadata>
-  <defs>
-    <linearGradient id="l" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#14B8A6" stop-opacity="0"/><stop offset=".5" stop-color="#F5B700"/><stop offset="1" stop-color="#14B8A6" stop-opacity="0"/>
-    </linearGradient>
-  </defs>
-  <style>
-    .dot{animation:run 5s ease-in-out infinite alternate}
-    @keyframes run{from{transform:translateX(-380px)}to{transform:translateX(380px)}}
-    .dm{transform-origin:600px 14px;animation:spin 6s linear infinite}
-    @keyframes spin{to{transform:rotate(360deg)}}
-    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
-  </style>
-  <rect x="40" y="13" width="1120" height="2" fill="url(#l)"/>
-  <circle class="dot" cx="600" cy="14" r="4" fill="#14B8A6"/>
-  <rect class="dm" x="593" y="7" width="14" height="14" fill="#0B1F3A" stroke="#F5B700" stroke-width="2"/>
-</svg>''',
-    "assets/footer.svg": r'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 170" width="1200" height="170" role="img" aria-label="RadioSkyLab footer" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTowODA1YTgyNS04MDY2LTQzOTgtODJlOS0yNDY2ZGExOGE2ZDkAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaHJYM4ZgvmJ+cbEm+DxiGzAAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDpiNjY5NDI0MC00OGM4LTQ3MzItYmMxZC1hNGI2Y2NjZmI0YjlscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoTAR0GXRGzqqbe64SXIjDZgAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggztEZF85EceRFyFvgMmBIfWs7dfx6BkmnpAep7HoF0NWkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaCcI9J6hEGfzjjjvTgE1IMYAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCCjcIRPIiI+YwfJ4ddqFXOv7/l2VgyT6Z38sFFV9wk3T2RuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBjDZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjA4MDVhODI1LTgwNjYtNDM5OC04MmU5LTI0NjZkYTE4YTZkOS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmIwODZlODE4LWQxOTYtNDE5Ni1iZGU4LTU2YWM5ZTc4ZTM1NnJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCDO0RkXzkRx5EXIW+AyYEh9azt1/HoGSaekB6nsegXQ1aJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggSWyMH5lJYBPzlOyfWBdDzTCVHpcQqBbMckx8JOVzNdyiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggcNfl1CABRMmD6+Y3ThXJXIvM6sazfo0eeMtCvZmr/MN0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQBLWgmu+2vo/LuvmQYWXU+1qbcRb/6CkOCtrRQ7PsDu3T9zE7vAO924CfoNpCdyl7mWbKe4LLgJLSMIGvU1VuKQ=</c2pa:manifest></metadata>
-  <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#0B1F3A"/><stop offset="1" stop-color="#04101F"/>
-    </linearGradient>
-    <linearGradient id="t" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#F5B700"/><stop offset="1" stop-color="#14B8A6"/>
-    </linearGradient>
-  </defs>
-  <style>
-    .w1{animation:d1 11s linear infinite}
-    .w2{animation:d2 16s linear infinite}
-    @keyframes d1{to{transform:translateX(-600px)}}
-    @keyframes d2{to{transform:translateX(600px)}}
-    text{font-family:'Segoe UI','Helvetica Neue',Arial,sans-serif}
-    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
-  </style>
-  <rect width="1200" height="170" fill="url(#g)" rx="14"/>
-  <g class="w2" opacity=".55">
-    <path d="M-600 120 Q-450 80 -300 120 T0 120 T300 120 T600 120 T900 120 T1200 120 T1500 120 V170 H-600Z" fill="#14B8A6" fill-opacity=".35"/>
-  </g>
-  <g class="w1" opacity=".8">
-    <path d="M0 132 Q150 96 300 132 T600 132 T900 132 T1200 132 T1500 132 V170 H0Z" fill="#F5B700" fill-opacity=".28"/>
-  </g>
-  <text x="600" y="62" text-anchor="middle" font-size="30" font-weight="800" fill="url(#t)">RadioSkyLab</text>
-  <text x="600" y="92" text-anchor="middle" font-size="16" fill="#9FF3E8">Built by Luthando Candlovu · Computer Science · Scientific Computing · Radio Astronomy · AI</text>
-</svg>''',
-}
-
-for name, content in FILES.items():
-    path = Path(name)
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(content, encoding="utf-8")
-    print("created", name)
-
-Path("docs").mkdir(exist_ok=True)
-print("done. Add your demo recording as docs/demo.gif, then commit and push.")
